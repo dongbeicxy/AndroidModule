@@ -1,0 +1,154 @@
+黏性悬浮                                       https://github.com/ksoichiro/Android-ObservableScrollView
+文字缩放入Toolbar的一种实现                     https://github.com/yueban/MaterialTextScaleToolbarDemo
+标签 徽章 视图                                 https://github.com/linger1216/labelview
+
+
+对角线布局                                     https://github.com/florent37/DiagonalLayout
+泡沫 提示框                                     https://github.com/MasayukiSuda/BubbleLayout
+
+一个定制的Android ViewGroup显示不同状态的屏幕（内容、进度，离线，空，等。）https://github.com/jakubkinst/Android-StatefulLayout
+泡沫Tab                  https://github.com/florent37/BubbleTab
+弧形布局                 https://github.com/florent37/ArcLayout
+
+Android 升级版 SwipeRefreshLayout    https://github.com/miomin/SHSwipeRefreshLayout
+圆角 半角布局                        https://github.com/skyline1631/RoundCornerLayout
+
+
+一个完美兼容 ViewPager 的导航栏组件；
+可以自定义 TabView；
+能动态加载 Tab 上的 Icon 图片；
+能显示 Tab 的消息数量和提示小圆点    https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip
+
+
+
+
+java根据时间date获取该时间距离现在的时间间隔
+https://blog.csdn.net/sxdtzhaoxinguo/article/details/78049463
+
+
+
+强大、可定制、易扩展的 ViewPager 指示器框架   https://github.com/hackware1993/MagicIndicator
+
+复杂多种数据结构类型 RecyclerView             https://github.com/llxdaxia/RecyclerView
+
+对dialog进行封装                               https://github.com/jyygithub/dialog
+
+TimePickerDialog                              https://github.com/JZXiang/TimePickerDialog
+
+精美Dialog                                    https://github.com/andyxialm/ColorDialog
+
+手势体验极棒但使用简单的ImageView控件           https://github.com/boycy815/PinchImageView
+
+方形 圆角 ImageView 加标签                     https://github.com/wujingchao/SimpleTagImageView
+
+Adapter(BaseAdapter, RecyclerView.Adapter) wrapper for Android. 一个Adapter同时适用RecyclerView、ListView、GridView等  
+
+https://github.com/byteam/SuperAdapter/issues
+
+
+
+ExpandableGridView   https://github.com/thewaychung/ExpandableGridView
+
+ExpandableTextView   https://github.com/Chen-Sir/ExpandableTextView
+
+TextView 包含超链接下划线   https://github.com/klinker24/Android-TextView-LinkBuilder
+
+倾斜TextView 标签            https://github.com/HeZaiJin/SlantedTextView
+
+各种样式TextView        https://github.com/RuffianZhong/RTextView
+
+
+各种样式TextView2       https://github.com/lygttpod/SuperTextView
+
+竖直TextView            https://github.com/liufsd/TextViewVertical
+
+高仿美团APP页面滑动标题栏渐变效果     https://github.com/Lichenwei-Dev/ObservableScrollView
+
+TabLayout+ScrollView 实现各种电商详情页的锚点功能       https://github.com/LinLeyang/AnchorArt
+
+自定义ScrollView实现下拉放大头部图片                    https://github.com/makewhat/HeadBlowScrollView
+
+SuperSwipeRefreshLayout                                 https://github.com/nuptboyzhb/SuperSwipeRefreshLayout
+
+固定头部scrollview                                      https://github.com/panch1993/StickHeadScrollView
+
+一个Android高效日期选择控件                             https://github.com/codbking/PickTime
+
+tablayout和viewpager结合使用的示例以及如何取消viewpager的预加载
+
+https://github.com/ditclear/TabLayout_example
+
+自定义layout实现的优惠券效果              https://github.com/Allyns/CouponAllyn
+
+带过渡动画的折叠收缩布局                  https://github.com/ss518926/ExpandLayout
+
+状态切换                                  https://github.com/yangchong211/YCStateLayout
+
+KKRefreshLayout                           https://github.com/0kai/KKRefreshLayout
+
+带有贝塞尔曲线效果的横向刷新布局           https://github.com/yzl520/PullLeftToRefreshLayout
+
+类似美团外卖 地图 布局                    https://github.com/natario1/BottomSheetCoordinatorLayout
+
+类似微博微信的图片九宫格解决方案          https://github.com/mzule/NineGridLayout
+
+保存View状态的PagerAdapter                https://github.com/NightlyNexus/ViewStatePagerAdapter
+
+视频播放控件                              https://github.com/JasonChow1989/JieCaoVideoPlayer-develop
+
+类似微信,网易新闻 延迟加载Fragment基类 , 支持与ViewPager组合刷新全部Fragment
+https://github.com/xmagicj/LazyFragment
+
+时间选择器、省市区三级联动               https://github.com/Bigkoo/Android-PickerView
+
+VideoPlayer                               https://github.com/lipangit/JiaoZiVideoPlayer
+
+ListView Item展开详情                    https://github.com/Ramotion/folding-cell-android
+
+倒计时视图                               https://github.com/iwgang/CountdownView
+
+波浪视图                                 https://github.com/john990/WaveView
+
+GifView                                  https://github.com/Cutta/GifView
+
+加载中视图（翻书可用于下拉刷新）         https://github.com/yankai-victor/Loading
+
+多功能 EditText                          https://github.com/woxingxiao/XEditText
+
+自定义Drawable实现一些常见角标的绘制     https://github.com/DroidWorkerLYF/CornerMarkView
+
+无限轮播ViewPagerLayout 广告栏           https://github.com/why168/LoopViewPagerLayout
+
+MultiPictureView 是一个将多张图片组合显示并支持添加和删除的控件
+
+https://github.com/goyourfly/MultiPictureView
+
+多图片选择器                             https://github.com/LuckSiege/PictureSelector
+
+三级或多级选择菜单，支持左右滑动         https://github.com/arlong/MultiMenuSelect
+
+标题栏渐变 仿原 百度外卖                 https://github.com/hxkdidi/Filter
+
+完整的筛选器解决方案                     https://github.com/baiiu/DropDownMenu
+
+带伸缩位移旋转动画的购物车按钮           https://github.com/mcxtzhang/AnimShopButton
+
+ViewPager+GridView实现图片滑动           https://github.com/crazyqiang/SlidePager
+
+GirdView点击效果和分割线                 https://github.com/Hankkin/GridViewDemo
+头部悬浮 GridView                        https://github.com/KobeGong/StickyAnimatedExpandableGridView
+
+高仿“今日头条”客户端                   https://github.com/Rano1/TopNews
+
+ExpandableListView 嵌套GridView          https://github.com/louisgeek/LouisExpandableListViewDemo
+
+通用Adapter，适用于单布局ListView、多布局ListView、单布局RecyclerView，
+多布局RecyclerView，带章节标题RecyclerView，GridView与ViewPage结合使用等情况
+
+https://github.com/Tailyou/OkAdapter
+
+
+重写GridView实现仿今日头条的频道编辑页   https://github.com/G9YH/YHChannelEdit
+
+
+Material Desig风格的浮动操作按钮         https://github.com/futuresimple/android-floating-action-button

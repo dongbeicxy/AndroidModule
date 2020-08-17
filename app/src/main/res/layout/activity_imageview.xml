@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--    https://github.com/getActivity/TitleBar-->
+    <com.hjq.bar.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftIcon="@mipmap/return_left"
+        app:title="图片"
+        app:titleSize="12sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@mipmap/splash_holder"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <com.xxx.xxx.widget.RoundRectLayout
+                android:layout_width="96dp"
+                android:layout_height="96dp">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@mipmap/splash_holder" />
+            </com.xxx.xxx.widget.RoundRectLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="github上的 RoundedImageView 库在列表滑动时会发生内存溢出，所以采用圆角布局包裹ImageView的方式，也可以用Glide实现圆角"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

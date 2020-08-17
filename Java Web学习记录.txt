@@ -1,0 +1,24 @@
+1.idea2020.1最新版  +  永久破解
+https://www.cnblogs.com/xpybsh/p/12703269.html
+
+2.2020年SpringBoot视频教程【免费学习】
+https://ke.qq.com/course/260513?taid=3719828225653153
+
+3.IDEA卡在Downloading maven plugins for的解决方法
+https://blog.csdn.net/qq_41937388/article/details/100943686
+
+4.关于git提交代码报错:Push to origin/master was rejected
+  https://blog.csdn.net/mygodit/article/details/84869504?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight
+  git push -u origin master -f
+
+5.git gc --aggressive --prune=now
+
+  记Git报错-refusing to merge unrelated histories
+  git pull origin master --allow-unrelated-histories
+
+6.Github项目clone的速度太慢怎么办？
+  使用github的镜像网站进行访问，github.com.cnpmjs.org，我们将原本的网站中的 github.com 进行替换
+
+7.Push failed
+  		Invocation failed Unexpected end of file from server
+  https://blog.csdn.net/xiayiye5/article/details/105319883

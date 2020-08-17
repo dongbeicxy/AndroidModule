@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.xxx.xxx.widget.page_menu.PageMenuLayout
+        android:id="@+id/pagemenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:pagemenu_row_count="2"
+        app:pagemenu_span_count="5" />
+
+    <!--    ci_radius：圆点半径-->
+    <!--    ci_margin：圆点间隔距离-->
+    <!--    ci_background：圆点未选中颜色-->
+    <!--    ci_selected_background：圆点选中颜色-->
+    <!--    ci_gravity：圆点的位置（left、centre、right）-->
+    <!--    ci_mode：选中圆点在未选中原点的位置（inside、outside、solo）-->
+
+    <com.xxx.xxx.widget.page_menu.CircleIndicator
+        android:id="@+id/ci_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_alignParentBottom="true"
+        app:ci_background="@android:color/white"
+        app:ci_margin="8dp"
+        app:ci_mode="inside"
+        app:ci_radius="4dp"
+        app:ci_selected_background="@android:color/holo_red_light" />
+
+    <com.xxx.xxx.widget.page_menu.BannerIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        app:sleider_align="Center"
+        app:slider_height="6dp"
+        app:slider_width="12dp" />
+
+    <com.xxx.xxx.widget.AmountView
+        android:id="@+id/amount_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

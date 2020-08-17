@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--    https://github.com/getActivity/TitleBar-->
+    <com.hjq.bar.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftIcon="@mipmap/return_left"
+        app:title="系统适配"
+        app:titleSize="12sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:onClick="jurisdictionApply"
+                android:padding="16dp"
+                android:text="6.0 权限申请"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="7.0 共享文件"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="org.apache不支持问题   在build.gradle里面加上这句话 defaultConfig {
+       useLibrary 'org.apache.http.legacy'
+   }   SharedPreferences闪退  MODE_WORLD_READABLE ：7.0以后不能使用这个获取，会闪退，修改成MODE_PRIVATE"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:onClick="installApk"
+                android:padding="16dp"
+                android:text="8.0 安装apk"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Only fullscreen opaque activities can request orientation  问题原因： Android 8.0 非全屏透明页面不允许设置方向（后面8.1系统谷歌就去掉了这个限制，可能很多人真的不习惯吧）
+        （1）android:windowIsTranslucent设置为false
+        (2)如果还是想用的话，就去掉清单文件中Activity中的android:screenOrientation=portrait，
+       （3）就是使用透明的dialog或者PopupWindow来代替，也可以用DialogFragment，看自己的需求和喜好"
+                android:textColor="@android:color/black" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="9.0"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Android P 限制了明文流量的网络请求，非加密的流量请求都会被系统禁止掉
+
+                其他Api的修改
+                if (Build.VERSION.SDK_INT >= 26) {
+                canvas.clipPath(mPath);
+            } else {
+                canvas.clipPath(mPath, Region.Op.REPLACE);
+            }"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="刘海屏 全面屏"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

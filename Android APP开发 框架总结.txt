@@ -1,0 +1,144 @@
+1.图片加载
+  Android 主流图片库Picasso Glide Fresco对比分析     
+  https://blog.csdn.net/u012440207/article/details/89681699
+
+  Glide 中文使用教程
+  https://muyangmin.github.io/glide-docs-cn/doc/getting-started.html
+
+
+2.权限访问
+  RxPermissions：个人觉得更简洁，最好在activity的onCreate()中使用哦
+  https://www.jianshu.com/p/734ad53eb7b7
+
+
+3.RecyclerView适配器
+  BaseRecyclerViewAdapterHelper
+  BaseRecyclerViewAdapterHelper 使用技巧
+  //https://www.jianshu.com/p/a8ec81ac8e32
+
+4.轮播
+  MZBannerView
+  https://github.com/zhpanvip/BannerViewPager
+  https://github.com/youth5201314/banner
+
+5.刷新 加载
+  强大的Android刷新控件-SmoothRefreshLayout  https://blog.csdn.net/idkzwm/article/details/79668999
+                                                                         https://github.com/scwang90/SmartRefreshLayout
+
+6.H5
+  AgentWeb  https://github.com/Justson/AgentWeb
+
+
+7.相册拍照
+  https://github.com/LuckSiege/PictureSelector
+
+
+8.沉浸式状态栏
+  UltimateBar https://github.com/Zackratos/UltimateBar
+  https://github.com/laobie/StatusBarUtil
+  https://github.com/gyf-dev/ImmersionBar
+
+
+9.加载状态布局Layout
+  LoadSir
+  https://www.cnblogs.com/cuichen16/p/10827219.html
+  https://github.com/CuiChenbo/CustomStateLayout
+
+
+10.网络请求
+   https://github.com/zhou-you/RxEasyHttp
+   OkHttp3
+   RxHttp 具备使用价值
+   下载可以很简单
+   https://github.com/AriaLyy/Aria
+
+
+12.存储框架
+   Hawk 一款基于SharedPreferences的存储框架
+
+
+13圆角RelativeLayout  
+https://github.com/yiranchunqiu/RoundView
+https://www.jianshu.com/p/38d9148c2dca
+
+
+14 RecycleView打造水平分页GridView
+    https://blog.csdn.net/qq_22706515/article/details/52266641
+    https://github.com/mtjsoft/GridPager
+    https://github.com/FlashQin/MySendGift
+
+15  强大，美观，优雅的通用弹窗XPopup!
+https://github.com/li-xiaojun/XPopup
+
+16 搭配ViewPager的指示器
+   CustomCirIndicator
+   https://github.com/kenvin-workpace/CustomCirIndicator
+   扁形条指示器
+   https://www.jianshu.com/p/489b77424b63
+
+17 购物车
+https://blog.csdn.net/qq941263013/article/details/80901277
+
+18 Fragment
+fragmentation  https://github.com/YoKeyword/Fragmentation
+
+19 shape神器BackgroundLibrary
+https://github.com/JavaNoober/BackgroundLibrary
+
+20 多任务下载 上传
+https://github.com/lingochamp/okdownload
+
+21 打包神器
+Walle
+
+22 悬浮操作栏
+https://github.com/google/hover
+https://github.com/princekin-f/EasyFloat
+//Android开发类似直播APP的弹幕和悬浮窗播放功能
+https://blog.csdn.net/weixin_42574892/article/details/95965091
+//悬浮窗直播小窗口
+https://www.jianshu.com/p/e953f5b924e1
+
+23 竖直滑动列表 类似商城分类
+https://github.com/qstumn/VerticalTabLayout
+//底部菜单栏 中也有
+implementation 'me.majiajie:pager-bottom-tab-strip:2.3.0X'
+
+24 内存泄漏与内存溢出总结
+https://mp.weixin.qq.com/s?__biz=MzI5ODI5NDkxMw==&mid=2247487478&idx=1&sn=976a12bfc63c51af10ecc92a6fea87e8&chksm=eca94418dbdecd0ed065bb1c426d06ef38fd78b017bce8a624d13351a60a571fdae2f71ef123&scene=0&key=1bb6a80844e534b7c8ed83f0b5b82825be2d043d1132dcd84d55ae4c8060e3fb619c7dd00acb04c2b3e019d9761f4d1ce033d8eddf0c85e93eb7f328c7bc6d92b8a05db2ac59d05bdece53449fa6bd09&ascene=1&uin=MjM3OTc3ODYxMg%3D%3D&devicetype=Windows+10&version=62080085&lang=zh_CN&exportkey=A6%2FVeLcJrLx8qSOIh9ciOvM%3D&pass_ticket=yzNohebizvLtIdArKahTcLYyRrKmgf6yCTTe3vgjupSnQ42SvgY2YJwSudfHdt%2Bm
+
+
+25 Android开发中 获取App缓存大小以及清除缓存
+https://blog.csdn.net/qq_41649170/article/details/79747748?utm_medium=distribute.pc_relevant_download.none-task-blog-BlogCommendFromBaidu-1.nonecase&depth_1-utm_source=distribute.pc_relevant_download.none-task-blog-BlogCommendFromBaidu-1.nonecas
+
+26 Android 工具框架
+https://github.com/Blankj/AndroidUtilCode
+
+27.图片缩放 + ViewPager 滑动
+TouchImageView
+
+28.Android单点触控技术，对图片进行平移，缩放，旋转操作
+  https://blog.csdn.net/xiaanming/article/details/42833893
+  类似in/百度魔图
+  https://www.cnblogs.com/andlp/p/5972260.html
+
+29.drawableLeft与文本一起居中显示
+  https://blog.csdn.net/shenshibaoma/article/details/53405524
+
+30.java单例模式几种实现方式
+  https://www.cnblogs.com/ngy0217/p/9006716.html
+
+31.Realm 集成
+  https://blog.csdn.net/u013651026/article/details/96479407
+  https://www.cnblogs.com/endv/p/12229594.html
+
+32.ScrollView 嵌套 ViewPager 不显示
+  https://www.jianshu.com/p/ba754761b43a
+
+33.友盟多渠道打包
+ https://blog.csdn.net/a872822645/article/details/103991111
+
+34.图片 遮罩 库
+CameraMask
+
+35.android官方demo地址都放在了github上： https://github.com/googlesamples

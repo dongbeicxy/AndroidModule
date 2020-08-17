@@ -1,0 +1,4 @@
+rootProject.name='XXApplication'
+include ':app'
+include ':xxlibrary'
+include ':android7library'

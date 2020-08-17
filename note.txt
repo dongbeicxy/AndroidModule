@@ -1,0 +1,101 @@
+﻿Android-打包AAR注意事项！
+
+1. 主项目需要依赖AAR中所依赖的远程库，否则会出现ClassNotFound异常
+这里也许某个依赖库你们的版本会发生冲突，这就需要你们协调了
+
+2. 资源命名最好统统加上你的项目名字前缀，比如图片资源、string、color、dimens、layout等等，反正res目录下所有文件最好都使用统一的加前缀命名，防止跟宿主app下的资源重复，因为aar引用跟源码引用起到的效果一样一样的，所有很容易出现资源重复引用的问题，所以加上前缀非常有必要。
+
+3. 如果该aar包里面有微信支付，分享等第三方库，你要在主工程中使用，要记得在gradle里面替换applicationId，或者用你主工程的包名和key去获取第三方操作的key和id
+以分享为例，如果你清单文件中的分享KEY与主项目中的build gradle文件中的分享KEY不同的话，就会包清单文件异常的。
+
+4. butterknife需要统一用8.4.0以上的版本，不然报错 ；依我的建议，最好不用，否则有你好受的哈！
+5. 如果在aar的MyAppliction里面使用了类的管理器，那么在打包成aar的时候需要将代码抽出来做个独立的类管理器，记住一点，打包成aar之后所有和application有关的东西都要检查替换，避免出现空指针异常。
+6. AAR模块用butterknife需要把资源R改为R2(批量替换)
+7. 布局文件不要重名，否则会报找不到Id的异常
+
+Android Studio 打包 aar   https://www.jianshu.com/p/baa7976cec09
+
+Android studio使用SVN  https://blog.csdn.net/yiyihuazi/article/details/90051412
+TortoiseSVN设置忽略文件和目录文件夹  https://blog.csdn.net/bbj12345678/article/details/80949556
+
+
+Android studio上传Project到GitHub  remote github already exists”的解决方法
+https://blog.csdn.net/wzy901213/article/details/82586692
+
+
+Android Studio中Git关联及使用    https://blog.csdn.net/Maiduoudo/article/details/90172615
+
+你真的知道如何在 GitHub 上高效搜索开源项目吗？
+https://blog.csdn.net/csdnnews/article/details/86570635
+
+
+11.小图标下载网站
+   https://www.easyicon.net
+
+
+Android开发:引入重复包报错':app:transformDexArchiveWithExternal...’解决方法
+https://cloud.tencent.com/developer/article/1499666
+
+AndroidStudio代码生成利器－LayoutCreator
+https://www.jianshu.com/p/46d0f191178f
+
+
+AndroidStudio Build Output乱码解决
+https://blog.csdn.net/u010632547/article/details/104689454
+
+
+ViewPager防止Fragment销毁以及取消Fragment的预加载
+https://blog.csdn.net/mr_liabill/article/details/48749807
+
+
+Android BaseRecyclerViewAdapterHelper 使用技巧
+//https://www.jianshu.com/p/a8ec81ac8e32
+
+  //https://blog.csdn.net/keep_my_mine/article/details/82497541   android 跳转到系统相册选择图片
+    //https://www.jianshu.com/p/41b093d213fb                        Android调用相册、相机（兼容6.0、7.0、8.0）
+    //Android图片剪裁之调用系统剪裁                                   https://www.jianshu.com/p/663321bff7d3?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+
+
+    测试用在线视频地址
+    https://www.jianshu.com/p/75a7db26d1d7
+
+    Android 接入微信登录流程图 详细完整交互流程图
+    https://blog.csdn.net/beibaokongming/article/details/99858361
+
+    AndroidApp支付宝支付流程
+    https://www.jianshu.com/p/a175f5d17f6f
+
+    Android 微信支付接入流程
+    https://www.jianshu.com/p/7160cd44cc16
+
+    接私活时，软件如何定价？
+    https://www.zhihu.com/question/26034431
+
+
+应用角标库
+https://github.com/leolin310148/ShortcutBadger
+
+Android之APP保活
+https://blog.csdn.net/LVXIANGAN/article/details/85776130?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1
+
+谷歌中国 https://developer.android.google.cn/?hl=zh-cn
+
+
+各种Android UI开源框架
+https://blog.csdn.net/m0_37135879/article/details/79159615?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1
+
+AS导入项目报错：Plugin with id 'com.android.application' not found.
+https://www.cnblogs.com/cuichen16/p/10785951.html
+
+
+Android Studio设置代码风格 在这里我想把代码风格从Java的行尾式改成C风格的代码  http://www.2cto.com/kf/201505/402768.html
+
+绘图软件  www.draw.io     Axure RP 9
+
+Duplicate class     如何查看Gradle项目的依赖树情况    https://blog.csdn.net/ouyang_peng/article/details/82590820
+
+https://blog.csdn.net/triste_who/article/details/90671293?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+
+https://blog.csdn.net/mqdxiaoxiao/article/details/101067489
+
+

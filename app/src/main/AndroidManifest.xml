@@ -1,0 +1,128 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xxx.xxx">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <!--    广告 权限-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--Bugly -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".XXApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:maxAspectRatio="2.4"
+        android:networkSecurityConfig="@xml/network_security"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:appComponentFactory">
+
+        <!--9.0加的，哦哦-->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+
+        <!--        沉浸式状态栏-->
+        <!--适配华为（huawei）刘海屏-->
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+        <!--适配小米（xiaomi）刘海屏-->
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+
+
+        <activity android:name=".view.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--        存储Activity-->
+        <activity android:name=".view.activity_storage.StorageActivity" />
+
+
+        <!--        轮播Activity-->
+        <activity android:name=".view.activity_loop.LoopActivity" />
+
+        <!--        网络Activity-->
+        <activity android:name=".view.NetActivity" />
+
+        <!--        广告 Activity-->
+
+        <!--        分享 Activity-->
+        <activity android:name=".view.activity_share.ShareActivity" />
+
+        <!--        支付 Activity-->
+        <activity android:name=".view.activity_pay.PayActivity" />
+
+        <!--        状态 Activity-->
+        <activity android:name=".view.activity_state.StateActivity" />
+
+        <!--        系统适配 Activity-->
+        <activity android:name=".view.SystemAdaptationActivity" />
+
+        <!--        今日头条 Activity-->
+        <activity android:name=".view.activity_toutiao.TouTiaoActivity" />
+
+        <!--        版本更新 Activity-->
+        <activity android:name=".view.activity_update.UpdatedVersionActivity" />
+
+        <!--        拍照相册 Activity-->
+        <activity android:name=".view.activity_photograph_album.PhotographAlbumActivity" />
+
+        <!--        图片 Activity-->
+        <activity
+            android:name=".view.ImageViewActivity"
+            android:theme="@style/AppThemeWhite" />
+
+        <activity
+            android:name=".view.HuYaActivity"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+
+        <!--        拼多多 主页 Activity-->
+        <activity android:name=".view.activity_shopping_mall.activity_pdd.PddMainActivity" />
+
+        <!--        京东 主页 Activity-->
+        <activity android:name=".view.activity_shopping_mall.activity_jd.JDActivity" />
+
+        <!--        popwindow Activity-->
+        <activity android:name=".view.activity_popwindow.PopWindowActivity" />
+
+        <!--        ConstraintlayoutActivity -->
+        <activity android:name=".view.activity_constraintlayout.ConstraintlayoutActivity" />
+
+        <!--反编译-->
+        <activity android:name=".view.activity_decompilation.DecompilationActivity" />
+
+    </application>
+</manifest>

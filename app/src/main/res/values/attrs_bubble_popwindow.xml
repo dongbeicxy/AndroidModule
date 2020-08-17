@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="bubble">
+        <attr name="bubble_shadowColor" format="color" />
+        <attr name="bubble_padding" format="dimension" />
+        <attr name="bubble_strokeWidth" format="float" />
+        <attr name="bubble_cornerRadius" format="float" />
+        <attr name="bubble_halfBaseOfLeg" format="dimension" />
+    </declare-styleable>
+
+</resources>

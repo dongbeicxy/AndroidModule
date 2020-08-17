@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:banner="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--    https://github.com/getActivity/TitleBar-->
+    <com.hjq.bar.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftIcon="@mipmap/return_left"
+        app:title="轮播"
+        app:titleSize="12sp" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.xxx.xxx.widget.ScaleLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:heightToWidth="0.5">
+
+                <com.youth.banner.Banner
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    banner:indicator_selected_color="@color/red" />
+            </com.xxx.xxx.widget.ScaleLayout>
+
+            <com.youth.banner.indicator.RoundLinesIndicator
+                android:id="@+id/indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_below="@+id/banner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="圆形指示器居中"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="圆形指示器居右"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/rec_center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="扁条指示器居中"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/rec_right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="扁条指示器居右"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/outside"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="外部指示器"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="数字指示器"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

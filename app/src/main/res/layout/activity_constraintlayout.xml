@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.hjq.bar.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftIcon="@mipmap/return_left"
+        app:title="约束布局"
+        android:visibility="gone"
+        app:titleSize="12sp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="约束布局"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- top-->
+        <TextView
+            android:id="@+id/v1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/red"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="#CDCD00"
+            android:gravity="center"
+            android:text="图1"
+            app:layout_constraintEnd_toStartOf="@id/tv2"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v1" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="#FF7F24"
+            android:gravity="center"
+            android:text="图2"
+            app:layout_constraintEnd_toStartOf="@id/tv3"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/tv1"
+            app:layout_constraintTop_toBottomOf="@id/v1" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="#AB82FF"
+            android:gravity="center"
+            android:text="图3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toEndOf="@id/tv2"
+            app:layout_constraintTop_toBottomOf="@id/v1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--    -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="#CDCD00"
+            android:gravity="center"
+            android:text="左边头像"
+            app:layout_constraintEnd_toStartOf="@id/tv5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="#FF7F24"
+            android:gravity="center"
+            android:text="编辑资料"
+            app:layout_constraintBottom_toBottomOf="@id/tv4"
+            app:layout_constraintStart_toEndOf="@id/tv4"
+            app:layout_constraintTop_toTopOf="@id/tv4" />
+
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="#00FF7F"
+            android:gravity="center"
+            android:text="+好友"
+            app:layout_constraintBottom_toBottomOf="@id/tv4"
+            app:layout_constraintStart_toEndOf="@id/tv5"
+            app:layout_constraintTop_toTopOf="@id/tv4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--    -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp">
+
+        <View
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="#CDCD00"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:background="#FF7F24"
+            android:gravity="center"
+            android:text="一半在兄弟节点中"
+            app:layout_constraintBottom_toBottomOf="@id/tv7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Android 自定义最大宽度，高度, 宽高比例 Layout   https://www.jianshu.com/p/803ac36396e1"/>
+</LinearLayout>
