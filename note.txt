@@ -25,6 +25,17 @@ https://blog.csdn.net/wzy901213/article/details/82586692
 
 Android Studio中Git关联及使用    https://blog.csdn.net/Maiduoudo/article/details/90172615
 
+Android获取SHA1（开发版和发布版）
+https://www.jianshu.com/p/0b6ecf4f51ee
+
+Android Studio 本地仓库关联Git仓库
+https://www.jianshu.com/p/33153bdc93ac
+
+AndroidStudio中Git更新错误：Can't update: no tracked branch
+https://www.jianshu.com/p/f3e918811597
+
+
+
 你真的知道如何在 GitHub 上高效搜索开源项目吗？
 https://blog.csdn.net/csdnnews/article/details/86570635
 
