@@ -110,3 +110,8 @@ https://blog.csdn.net/triste_who/article/details/90671293?depth_1-utm_source=dis
 https://blog.csdn.net/mqdxiaoxiao/article/details/101067489
 
 
+
+Android Studio添加头部注释模板
+https://www.jianshu.com/p/d40b4451b158
+
+

@@ -142,3 +142,6 @@ TouchImageView
 CameraMask
 
 35.android官方demo地址都放在了github上： https://github.com/googlesamples
+
+36.NestedScrollView嵌套RecyclerView 显示不全以及滑动卡顿
+   https://www.cnblogs.com/fuyaozhishang/p/8232378.html
