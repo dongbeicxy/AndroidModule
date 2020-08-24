@@ -6,6 +6,7 @@
 对角线布局                                     https://github.com/florent37/DiagonalLayout
 泡沫 提示框                                     https://github.com/MasayukiSuda/BubbleLayout
 
+
 一个定制的Android ViewGroup显示不同状态的屏幕（内容、进度，离线，空，等。）https://github.com/jakubkinst/Android-StatefulLayout
 泡沫Tab                  https://github.com/florent37/BubbleTab
 弧形布局                 https://github.com/florent37/ArcLayout
