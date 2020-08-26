@@ -17,8 +17,11 @@ https://blog.csdn.net/qq_41937388/article/details/100943686
   git pull origin master --allow-unrelated-histories
 
 6.Github项目clone的速度太慢怎么办？
-  使用github的镜像网站进行访问，github.com.cnpmjs.org，我们将原本的网站中的 github.com 进行替换
+  使用github的镜像网站进行访问，hub.fastgit.org(优先) / github.com.cnpmjs.org，我们将原本的网站中的 github.com 进行替换
 
 7.Push failed
   		Invocation failed Unexpected end of file from server
   https://blog.csdn.net/xiayiye5/article/details/105319883
+
+8.mysql5.7下载及安装
+  https://blog.csdn.net/weixin_43189346/article/details/88595292
