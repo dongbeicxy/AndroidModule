@@ -117,4 +117,5 @@ https://www.jianshu.com/p/d40b4451b158
 Android strings.xml 遇到“xxx is not translated in xxx”错误的解决办法
 https://blog.csdn.net/freezingxu/article/details/70917931?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase
 
-
+刻章网址
+http://www.makepic.net/tool/signet.html
