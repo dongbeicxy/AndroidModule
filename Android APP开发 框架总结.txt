@@ -145,3 +145,6 @@ CameraMask
 
 36.NestedScrollView嵌套RecyclerView 显示不全以及滑动卡顿
    https://www.cnblogs.com/fuyaozhishang/p/8232378.html
+
+37.小红点提示
+   https://github.com/zhangphil/BGABadgeView
